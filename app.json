@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Visados",
-    "slug": "visados",
+    "name": "Citas de Visado",
+    "slug": "Visado",
     "privacy": "public",
     "sdkVersion": "33.0.0",
     "platforms": [
@@ -9,13 +9,13 @@
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffc400"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +24,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.purposefulsoftware.citasdevisado",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch"
+        ]
+      }
     }
   }
 }

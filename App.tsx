@@ -18,8 +18,10 @@ const AppNavigator = createStackNavigator(
     Home: {
       screen: HomeScreen,
       navigationOptions: () => ({
-        title: `Visados`,
-        headerBackTitle: null
+        title: `Citas de Visado`,
+        headerBackTitle: null,
+        headerStyle: styles.headerStyle,
+        headerTintColor: "#fff"
       }),
     }
   },
@@ -44,4 +46,8 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     paddingTop: 50
   },
+  headerStyle: {
+    color: "#fff",
+    backgroundColor: "#c60b1e"
+  }
 });

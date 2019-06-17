@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
 export default function AppStatusBar() {
   return (
     <View>
-      <StatusBar barStyle="dark-content" hidden={false}/>
+      <StatusBar  barStyle="dark-content" hidden={false}/>
     </View>
   )
 }
